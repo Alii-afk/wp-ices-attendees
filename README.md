@@ -29,3 +29,4 @@ A simple WordPress plugin to manage and view conference attendees, download atte
 ## License
 
 GPL2
+ 
