@@ -29,9 +29,9 @@ function ices_admin_menu()
 $base_dir = __DIR__; // Adjust this path if your files are in a subdirectory
 
 // Require the necessary files
-require_once $base_dir . '/view_attendees.php';
-require_once $base_dir . '/main_csv.php';
-require_once $base_dir . '/all_emails.php';
+require_once $base_dir . 'admin/view-attendees-page.php';
+require_once $base_dir . 'includes/class-attendee-csv.php';
+require_once $base_dir . 'includes/class-attendee-emails.php';
 
 register_activation_hook(__FILE__, 'create_attendees_table');
 function create_attendees_table()
